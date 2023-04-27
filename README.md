@@ -1,7 +1,7 @@
 # Unity_Elementi.2
 My new project
 
-##My plan:
+## My plan:
 
 - [ ] Input foield letojums
 - [ ] Text elementa lietojums
