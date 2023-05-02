@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Anian/Sakums.unity
+- path: Assets/Anian/CreatePers.unity
   isLoaded: 1
   isActive: 1

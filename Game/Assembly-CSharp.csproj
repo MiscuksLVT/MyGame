@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scri.cs" />
+     <Compile Include="Assets\Script\IklButton.cs" />
      <Compile Include="Assets\Script\StartGame.cs" />
      <Compile Include="Assets\Script\TogglePers.cs" />
  <Reference Include="UnityEngine.UI">
