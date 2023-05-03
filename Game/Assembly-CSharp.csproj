@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scri.cs" />
+     <Compile Include="Assets\Script\Atteluparvietosana.cs" />
      <Compile Include="Assets\Script\IklButton.cs" />
+     <Compile Include="Assets\Script\MainitLielumu.cs" />
      <Compile Include="Assets\Script\StartGame.cs" />
      <Compile Include="Assets\Script\TogglePers.cs" />
  <Reference Include="UnityEngine.UI">
