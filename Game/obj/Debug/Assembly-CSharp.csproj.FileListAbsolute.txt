@@ -1,4 +1,3 @@
-D:\Unity\Game\MyGame\Game\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 D:\Unity\Game\MyGame\Game\Temp\bin\Debug\Assembly-CSharp.dll
 D:\Unity\Game\MyGame\Game\Temp\bin\Debug\Assembly-CSharp.pdb
 D:\Unity\Game\MyGame\Game\Temp\bin\Debug\UnityEditor.dll
@@ -58,3 +57,6 @@ C:\Users\2PT-2\Unity_Miscuks\Otrais Projekts\MyGame\Game\obj\Debug\Assembly-CSha
 C:\Users\2PT-2\Unity_Miscuks\Otrais Projekts\MyGame\Game\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\2PT-2\Unity_Miscuks\Otrais Projekts\MyGame\Game\obj\Debug\Assembly-CSharp.dll
 C:\Users\2PT-2\Unity_Miscuks\Otrais Projekts\MyGame\Game\obj\Debug\Assembly-CSharp.pdb
+D:\Unity\Game\MyGame\Game\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+D:\Unity\Game\MyGame\Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\Unity\Game\MyGame\Game\obj\Debug\Assembly-CSharp.csproj.CopyComplete
