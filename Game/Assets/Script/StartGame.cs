@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using JetBrains.Annotations;
 using System.Threading;
 using UnityEngine.SceneManagement;
 
@@ -17,20 +18,32 @@ public class StartGame : MonoBehaviour {
     int index;
     public void UzglabatTekstu()
     {
+        int x = 0;
       
-      
-            index = Random.Range(0, fragmenti.Length);
+          index = Random.Range(0, fragmenti.Length);
             Vards = ievadesLauksText.GetComponent<InputField>().text;
-       tekstaAttelosana.GetComponent<Text>().text = fragmenti[index] + Vards.ToUpper() + "!";
+        if (string.IsNullOrEmpty(ievadesLauksText.GetComponent<InputField>().text.Trim()) || !int.TryParse(ievadesLauksVec.GetComponent<InputField>().text, out x))
+        {
+
+            tekstaAttelosana.GetComponent<Text>().text = "Ievadi ar Cipariem(no10 lidz 60)";
+
+        } 
+
+            vec = int.Parse(ievadesLauksVec.GetComponent<InputField>().text);
+            if (vec < 10 || vec > 60)
+            {
+            vec = x;
+                tekstaAttelosana.GetComponent<InputField>().text = "Age";
 
 
-    }
-    public void UzglabatVecums()
-    {
-        vec = int.Parse(ievadesLauksVec.GetComponent<InputField>().text);
-        tekstaAttelosana.GetComponent<Text>().text = fragmentiVec[index] + " " + vec + " " + fragmenti[index];
+            }
+           
+                tekstaAttelosana.GetComponent<Text>().text = Vards + fragmenti[index] + " " + vec + " " + fragmentiVec[index];
 
-    }
+            
+
+        }
+    
 
 
     public void Uzaskums()
