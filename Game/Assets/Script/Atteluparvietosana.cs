@@ -75,6 +75,7 @@ public class Atteluparvietosana : MonoBehaviour,
         atteluMasiv[18].transform.localScale = new Vector2(  pasreizajaVertiba, y);
         atteluMasiv[19].transform.localScale = new Vector2(  pasreizajaVertiba, y);
         atteluMasiv[20].transform.localScale = new Vector2(  pasreizajaVertiba, y);
+        atteluMasiv[21].transform.localScale = new Vector2(pasreizajaVertiba, y);
     }
 
     public void mainitGarumu()
@@ -103,7 +104,7 @@ public class Atteluparvietosana : MonoBehaviour,
         atteluMasiv[18].transform.localScale = new Vector2(x,   pasreizajaVertibaa);
         atteluMasiv[19].transform.localScale = new Vector2(x,   pasreizajaVertibaa);
         atteluMasiv[20].transform.localScale = new Vector2(x,   pasreizajaVertibaa);
-
+        atteluMasiv[21].transform.localScale = new Vector2(x, pasreizajaVertibaa);
 
 
 

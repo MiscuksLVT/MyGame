@@ -38,7 +38,7 @@ public class StartGame : MonoBehaviour {
 
             }
            
-                tekstaAttelosana.GetComponent<Text>().text = Vards + fragmenti[index] + " " + vec + " " + fragmentiVec[index];
+                tekstaAttelosana.GetComponent<Text>().text =  fragmenti[index] +" "+ Vards + " - " + vec + " " + fragmentiVec[index];
 
             
 
