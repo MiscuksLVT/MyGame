@@ -51,6 +51,7 @@
      <Compile Include="Assets\Script\Audio.cs" />
      <Compile Include="Assets\Script\ChangeImage.cs" />
      <Compile Include="Assets\Script\MainitLiel.cs" />
+     <Compile Include="Assets\Script\Show.cs" />
      <Compile Include="Assets\Script\StartGame.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

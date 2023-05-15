@@ -22,7 +22,7 @@ public class StartGame : MonoBehaviour {
       
           index = Random.Range(0, fragmenti.Length);
             Vards = ievadesLauksText.GetComponent<InputField>().text;
-        if (string.IsNullOrEmpty(ievadesLauksText.GetComponent<InputField>().text.Trim()) || !int.TryParse(ievadesLauksVec.GetComponent<InputField>().text, out x))
+        if (!string.IsNullOrEmpty(ievadesLauksText.GetComponent<InputField>().text.Trim()) || !int.TryParse(ievadesLauksText.GetComponent<InputField>().text, out x))
         {
 
             tekstaAttelosana.GetComponent<Text>().text = "Ievadi ar Cipariem(no10 lidz 60)";
@@ -30,17 +30,21 @@ public class StartGame : MonoBehaviour {
         } 
 
             vec = int.Parse(ievadesLauksVec.GetComponent<InputField>().text);
-            if (vec < 10 || vec > 60)
-            {
+        if (vec < 10 || vec > 60)
+        {
             vec = x;
-                tekstaAttelosana.GetComponent<InputField>().text = "Age";
+            tekstaAttelosana.GetComponent<InputField>().text = "";
+
+    
 
 
-            }
-           
-                tekstaAttelosana.GetComponent<Text>().text =  fragmenti[index] +" "+ Vards + " - " + vec + " " + fragmentiVec[index];
+        }
+        else
+        {
 
-            
+            tekstaAttelosana.GetComponent<Text>().text = fragmenti[index] + " " + Vards + " - " + vec + " " + fragmentiVec[index];
+
+        }
 
         }
     

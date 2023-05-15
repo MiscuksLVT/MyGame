@@ -7,21 +7,41 @@ Direct3D:
     VRAM:     3072 MB
     Driver:   30.0.15.1123
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.316 seconds
-Platform assembly: D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\Unity\Game\MyGame\Game\BABABOI_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.310 seconds
+Platform assembly: D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Unity\Game\MyGame\MyGame\Game\BABABOI_Data\Managed\System.dll (this message is harmless)
 desktop: 2560x1440 165Hz; virtual: 4480x1533 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.577300 ms
+GfxDevice: creating device client; threaded=1
+GfxDevice: creating device client; threaded=1
+GfxDevice: creating device client; threaded=1
+GfxDevice: creating device client; threaded=1
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.584400 ms
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 312.
+Total: 1.796200 ms (FindLiveObjects: 0.022500 ms CreateObjectMapping: 0.011400 ms MarkObjects: 0.150000 ms  DeleteObjects: 1.611600 ms)
+
+Quit is working
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 6c8c -> priority: 1 
+  Thread -> id: 22b4 -> priority: 1 
+  Thread -> id: 34f0 -> priority: 1 
