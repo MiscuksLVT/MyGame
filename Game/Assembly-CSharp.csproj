@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scri.cs" />
      <Compile Include="Assets\Script\Atteluparvietosana.cs" />
+     <Compile Include="Assets\Script\ChangeImage.cs" />
      <Compile Include="Assets\Script\MainitLiel.cs" />
      <Compile Include="Assets\Script\StartGame.cs" />
  <Reference Include="UnityEngine.UI">
