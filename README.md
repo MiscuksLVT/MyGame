@@ -17,4 +17,4 @@ My new project
 - [ ] Beigas Erkans(If lost)
 - [ ] Beigas Ekrans(Winner)
 - [x] Izdomat Nosaukumu 
-- [ ] Izdarit .exe
+- [x] Izdarit .exe
